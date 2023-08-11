@@ -4,12 +4,6 @@
 
 # How to build the project?
 
-## Install dependencies
-
-```console
-./install_dependencies.sh
-```
-
 ## Build jar file
 ```console
 mvn package
