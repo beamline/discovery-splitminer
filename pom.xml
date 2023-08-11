@@ -15,6 +15,10 @@
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
+        <repository>
+            <id>beamline-maven-dependencies</id>
+            <url>https://raw.github.com/beamline/maven-dependencies/master/repository/</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -86,12 +90,12 @@
         <dependency>
             <groupId>org.processmining</groupId>
             <artifactId>BPMN</artifactId>
-            <version>LATEST</version>
+            <version>0.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.processmining.plugins.graphviz</groupId>
             <artifactId>GraphViz</artifactId>
-            <version>LATEST</version>
+            <version>0.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.processmining.contexts</groupId>
@@ -111,7 +115,7 @@
         <dependency>
             <groupId>org.processmining.plugins</groupId>
             <artifactId>ProM-Plugins</artifactId>
-            <version>LATEST</version>
+            <version>0.0.1</version>
         </dependency>
         <dependency>
             <groupId>com.fluxicon.slickerbox</groupId>
@@ -121,7 +125,7 @@
         <dependency>
             <groupId>info.clearthought.layout</groupId>
             <artifactId>tablelayout</artifactId>
-            <version>LATEST</version>
+            <version>0.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.deckfour.uitopia</groupId>
@@ -131,7 +135,7 @@
         <dependency>
             <groupId>org.processmining</groupId>
             <artifactId>Widgets</artifactId>
-            <version>LATEST</version>
+            <version>0.0.1</version>
         </dependency>
 
         <!--TEMPORARY-->
